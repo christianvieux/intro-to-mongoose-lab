@@ -14,6 +14,15 @@ This lab demonstrates basic CRUD operations using MongoDB and mongoose. Users ca
 1. Clone this repo
 2. Run `npm install` to install dependencies
 3. Create `.env` file and add your MongoDB URI
+
+    PASSWORD=your_mongodb_password
+    MONGODB_URI=your_mongodb_connection_string
+
+    Example:
+    ```
+    PASSWORD=mySecurePass123
+    MONGODB_URI=mongodb+srv://johndoe:<db_password>@cluster.xxxxx.mongodb.net/?retryWrites=true&w=majority
+
 4. Run `node app.js` to start the app
 
 ## Features
