@@ -52,7 +52,13 @@ connect()
 
     while (true) { // always show the menu selection
       const menuItem = await promptUser();
-      await menuItem.action();
+      const menuAction = await menuItem.action();
+
+      if (menuAction == "exit") { // if the user chooses the "exit option"
+        console.log("Exiting the application.");
+        await mongoose.connection.close();
+        process.exit(0);
+      }
     }
   })
   .catch((err) => {

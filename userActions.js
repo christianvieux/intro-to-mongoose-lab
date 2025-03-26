@@ -174,8 +174,7 @@ module.exports = {
     },
 
     quit: async function() {
-        console.log("Exiting the application.");
-        process.exit(0);
+        return "exit"
     },
 }
 
