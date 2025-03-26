@@ -33,7 +33,7 @@ This lab demonstrates basic CRUD operations using MongoDB and mongoose. Users ca
 - Terminal-based interface
 
 ## Author
-Christian Vieux
+[Christian Vieux]([christianvieux (Christian Vieux) · GitHub](https://github.com/christianvieux))
 
 ## Note
 This is a practice lab for learning MongoDB database operations. The focus is on functionality rather than visual design.
